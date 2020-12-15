@@ -2,9 +2,13 @@
 
 输入任意的二元关系（通过输入所有有序对的方式输入），检查其是否为偏序关系，并显示Hasse图。
 
+## 构建
+
+只包含一个代码文件hasse.c。依赖于OpenGL和GLUT绘图库。可以使用cmake构建，也可以根据自己的情况手动编译。
+
 ## 例子
 
-画![demo](https://raw.githubusercontent.com/hhusjr/Hasse/master/doc/example_formula.svg)。
+画![demo](https://raw.githubusercontent.com/hhusjr/Hasse/master/doc/example_formula.svg)的哈斯图（Hasse Graph）。
 
 输入元素个数和关系对数，空格隔开：
 
